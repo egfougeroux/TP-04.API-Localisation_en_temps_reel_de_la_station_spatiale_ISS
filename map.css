@@ -1,0 +1,23 @@
+/* Hauteur obligatoire pour que le conteneur Leaflet s'affiche à l'écran */
+#map {
+  height: 500px;
+  width: 100%;
+}
+
+/* Style des liens de navigation vers l'application Waze */
+.btn-waze {
+  background-color: #33ccff;
+  color: #0b253a;
+  font-weight: 500;
+}
+
+.btn-waze:hover {
+  background-color: #1eb3e6;
+  color: #000;
+}
+
+/* Personnalisation légère de la bulle d'information (popup) */
+.leaflet-popup-content-wrapper {
+  border-radius: 8px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+}
