@@ -15,11 +15,12 @@ Ce projet permet de visualiser en direct la trajectoire et la position de la Sta
 - Bouton plein écran (Plugin Leaflet Fullscreen).
 
 ## Sources et Crédits
-- **Données API :** [Open Notify](http://api.open-notify.org/iss-now.json)
-- **Cartographie :** [Leaflet](https://leafletjs.com/) & [OpenStreetMap](https://www.openstreetmap.org/)
-- **Plugin Plein Écran :** [Leaflet.fullscreen](https://github.com/Leaflet/Leaflet.fullscreen)
-- **Style CSS :** [Bootstrap 5](https://getbootstrap.com/)
-- **Icône ISS :** [Wikimedia Commons - International Space Station SVG](https://commons.wikimedia.org/wiki/File:International_Space_Station.svg) (Licence Creative Commons).
+Conformément aux consignes du sujet :
+- **Données géodésiques de l'ISS :** [Open Notify API](http://api.open-notify.org/iss-now.json)
+- **Fonds cartographiques :** [OpenStreetMap](https://www.openstreetmap.org/copyright)
+- **Documentation et sources scientifiques :** [Agence Spatiale Européenne (ESA)](https://www.esa.int/)
+- **Icône ISS :** [Wikimedia Commons - International Space Station SVG](https://commons.wikimedia.org/wiki/File:International_Space_Station.svg) (Licence Creative Commons CC BY-SA 4.0)
+- **Plugin Fullscreen :** [Leaflet.fullscreen par Mapbox](https://github.com/Leaflet/Leaflet.fullscreen)
 
 ## Déploiement
 - Projet disponible sur la machine virtuelle à l'adresse : `http://<IP-DE-TA-VM>/...`
