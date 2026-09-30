@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <!-- Définition de l'encodage pour la prise en charge des accents -->
+  <meta charset="UTF-8">
+  <!-- Adaptation mobile et responsive -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>TP04. API - Localisation en temps réel de la station spatiale ISS</title>
+
+  <!-- Framework CSS Bootstrap 5 pour la mise en page générale -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <!-- Icônes Bootstrap -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css" rel="stylesheet">
+
+  <!-- Feuilles de style CSS pour la bibliothèque Leaflet -->
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" 
+    integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY=" 
+    crossorigin=""/>
+
+  <!-- Make sure you put this AFTER Leaflet's CSS -->
+  <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"
+    integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo="
+    crossorigin=""></script>
+
+  <!-- Plugin Leaflet Fullscreen (demandé par le TP) -->
+  <link href='https://api.mapbox.com/mapbox.js/plugins/leaflet-fullscreen/v1.0.1/leaflet.fullscreen.css' rel='stylesheet' />
+  <script src='https://api.mapbox.com/mapbox.js/plugins/leaflet-fullscreen/v1.0.1/Leaflet.fullscreen.min.js'></script>
+
+  <!-- Style personnalisé pour adapter la hauteur et les marqueurs -->
+  <link rel="stylesheet" href="assets/css/map.css">
+</head>
+
+<body class="bg-light">
+
+  <div class="container py-4">
+    <!-- En-tête de la page -->
+    <header class="mb-4">
+      <h1 class="h3 text-primary mb-1">Station spatiale ISS</h1>
+      <p class="text-muted mb-0">Emplacement en temps réel de la station spatiale internationale (ISS)</p>
+    </header>
+
+    <!-- Zone d'affichage de la carte Leaflet -->
+    <div class="card shadow-sm border-0 mb-4 overflow-hidden">
+      <div id="map"></div>
+    </div>
+
+    <!-- Description et source du sujet -->
+    <div class="card shadow-sm border-0 p-3">
+      <h5 class="fw-bold">Source :</h5>
+      <p><a href="https://www.esa.int/Science_Exploration/Human_and_Robotic_Exploration/International_Space_Station" target="_blank">ESA - International Space Station</a></p>
+      <h5 class="fw-bold">En savoir plus :</h5>
+      <p class="text-muted mb-0">
+        Totalisant actuellement un peu plus de 400 tonnes orbitant à environ 400 km d'altitude à la vitesse de 28 000 km/h,
+        l'ISS est la plus grande structure jamais assemblée dans l'espace et elle héberge des laboratoires pour y mener
+        des expériences scientifiques impossibles à réaliser sur Terre.
+      </p>
+    </div>
+  </div>
+
+  <!-- Script métier pour instancier la carte et injecter les données -->
+  <script src="assets/js/map.js"></script>
+</body>
+</html>
