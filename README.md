@@ -19,7 +19,7 @@ Ce projet permet de visualiser en direct la trajectoire et la position de la Sta
 - **Cartographie :** [Leaflet](https://leafletjs.com/) & [OpenStreetMap](https://www.openstreetmap.org/)
 - **Plugin Plein Écran :** [Leaflet.fullscreen](https://github.com/Leaflet/Leaflet.fullscreen)
 - **Style CSS :** [Bootstrap 5](https://getbootstrap.com/)
-- **Icône ISS :** Téléchargée sur Flaticon (Licence libre / auteur crédité)
+- **Icône ISS :** [Wikimedia Commons - International Space Station SVG](https://commons.wikimedia.org/wiki/File:International_Space_Station.svg) (Licence Creative Commons).
 
 ## Déploiement
 - Projet disponible sur la machine virtuelle à l'adresse : `http://<IP-DE-TA-VM>/...`
