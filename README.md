@@ -9,10 +9,12 @@
 Ce projet permet de visualiser en direct la trajectoire et la position de la Station Spatiale Internationale (ISS) sur une carte interactive.
 
 ## Fonctionnalités
-- Affichage de la carte interactive centrée sur le globe.
-- Récupération en temps réel des coordonnées GPS de l'ISS toutes les 15 secondes.
-- Marqueur personnalisé avec icône spatiale et popup indiquant la latitude et longitude exactes.
-- Bouton plein écran (Plugin Leaflet Fullscreen).
+- **Visualisation cartographique :** intégration d'un planisphère interactif avec la bibliothèque Leaflet.
+- **Requête API asynchrone :** interrogation de l'API Open Notify à l'aide de l'API Fetch de JavaScript.
+- **Actualisation en direct :** mise à jour automatique des coordonnées toutes les 15 secondes via un minuteur (`setInterval`).
+- **Marqueur personnalisé :** utilisation d'une icône dédiée représentant l'ISS, avec déplacement fluide du marqueur existant via `setLatLng()`.
+- **Informations contextuelles :** affichage d'une infobulle (*popup*) indiquant la latitude et la longitude exactes de la station.
+- **Mode plein écran :** intégration du plugin Leaflet Fullscreen pour étendre la carte.
 
 ## Sources et Crédits
 Conformément aux consignes du sujet :
