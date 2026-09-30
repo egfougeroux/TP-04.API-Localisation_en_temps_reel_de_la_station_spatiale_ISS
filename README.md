@@ -6,7 +6,9 @@
 
 ---
 
-Ce projet permet de visualiser en direct la trajectoire et la position de la Station Spatiale Internationale (ISS) sur une carte interactive.
+La station spatiale internationale se déplace à une vitesse d'environ 28 000 km/h à 400 km d'altitude. L'objectif de ce TP est d'interroger une API publique pour récupérer ses coordonnées géographiques en direct et de mettre à jour son positionnement dynamique sur un planisphère interactif sans recharger la page.
+
+---
 
 ## Fonctionnalités
 - **Visualisation cartographique :** intégration d'un planisphère interactif avec la bibliothèque Leaflet.
